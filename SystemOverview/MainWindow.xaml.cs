@@ -130,7 +130,7 @@ namespace SystemOverview
         {
             try
             {
-                Process.Start(PIMPath);
+                Process.Start(new ProcessStartInfo() { FileName = PIMPath, UseShellExecute = true, WindowStyle = ProcessWindowStyle.Maximized, WorkingDirectory = @"C:\Program Files (x86)\Evision\Evision.ProductOraganizer\" });
             }
             catch
             {
@@ -353,6 +353,18 @@ namespace SystemOverview
                 MessageBox.Show("This folder is not fund. Pls chek that the system have this the connector installed !", "We do not find the connector and there by this folder on the system.", MessageBoxButton.OK, MessageBoxImage.Question);
             }
 
+        }
+
+        private void image_Copy9_MouseRightButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                Process.Start(@"http://electronics.evision-commerce.net/");
+            }
+            catch 
+            {
+                MessageBox.Show("The website is not found on the system");
+            }
         }
     }
 }
