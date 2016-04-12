@@ -48,7 +48,7 @@ namespace SystemOverview
         {
             if (_xmldocument == null)
             {
-                xmlTree.ItemsSource = null;
+                xmlTree.ItemsSource = null; 
                 return;
             }
 
