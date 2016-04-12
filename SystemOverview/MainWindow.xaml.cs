@@ -323,6 +323,9 @@ namespace SystemOverview
             {
                 imPIM.Cursor = null;
             }
+
+            image_Copy9.ToolTip = "Open demo 2 website";
+
             System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
             FileVersionInfo fvi = FileVersionInfo.GetVersionInfo(assembly.Location);
 
@@ -363,7 +366,7 @@ namespace SystemOverview
             }
             catch
             {
-                MessageBox.Show("The website is not found on the system");
+                MessageBox.Show("The website is not found on the system"); 
             }
         }
     }
