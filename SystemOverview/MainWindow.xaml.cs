@@ -324,7 +324,7 @@ namespace SystemOverview
                 imPIM.Cursor = null;
             }
 
-            image_Copy9.ToolTip = "Open demo 2 website";
+            image_Copy9.ToolTip = "Open demo 2 website"; 
 
             System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
             FileVersionInfo fvi = FileVersionInfo.GetVersionInfo(assembly.Location);
