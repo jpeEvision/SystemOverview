@@ -355,13 +355,13 @@ namespace SystemOverview
 
         }
 
-        private void image_Copy9_MouseRightButtonUp(object sender, MouseButtonEventArgs e)
+        private void image_Copy9_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
             try
             {
                 Process.Start(@"http://electronics.evision-commerce.net/");
             }
-            catch 
+            catch
             {
                 MessageBox.Show("The website is not found on the system");
             }
