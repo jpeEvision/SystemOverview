@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SystemOverview"
         mc:Ignorable="d"
-        Title="System Overview" Height="238.136" Width="600" WindowState="Normal" WindowStyle="None" MouseLeftButtonUp="Window_MouseLeftButtonUp" WindowStartupLocation="CenterScreen">
+        Title="System Overview" Height="238.136" Width="600" WindowState="Normal" MouseLeftButtonUp="Window_MouseLeftButtonUp" WindowStartupLocation="CenterScreen">
     <Window.Background>
         <ImageBrush ImageSource="Images/Startup.png"></ImageBrush>
     </Window.Background>
